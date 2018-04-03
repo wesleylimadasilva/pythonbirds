@@ -16,3 +16,8 @@ if __name__ == '__main__':
     print(filho1.nome)
     for filho in maria.filhos:
         print(f"{filho.nome} é filho de {maria.nome}")
+
+    filho2.sobrenome = 'Silva'
+    print(maria.__dict__)
+    print(filho1.__dict__)
+    print(filho2.__dict__)
